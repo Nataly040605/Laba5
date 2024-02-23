@@ -11,7 +11,7 @@ import utility.Console;
 
 public class Execute_script extends AbstractCommand{
 	final int countOfArguments = 1;
-    static final List<Path> pathList = new ArrayList<>(); // почему не HashSet?
+    static final List<Path> pathList = new ArrayList<>(); 
 
     public Execute_script(CollectionManager collection) {
         super(collection);
